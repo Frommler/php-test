@@ -25,13 +25,11 @@ if ($_SESSION['user']) {
     <p>
       Have no account? <a href="register.php">Registration</a>!
     </p>
-    <?php
-    if ($_SESSION['message']) { // show messages
-      echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
-    }
-    unset($_SESSION['message']); //delete messages
-    ?>
+    <p class="msg">Lorem ipsum dolor sit amet.</p> 
   </form>
+
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
